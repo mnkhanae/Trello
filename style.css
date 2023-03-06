@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Josefin+Sans:wght@300;400&family=Mulish:wght@500&family=Oswald:wght@300&family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #f8f7ff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  box-shadow: 0px 2px 26px 4px rgba(0, 0, 0, 0.75);
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+.logo-img {
+  width: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.liens li {
+  list-style-type: none;
+  color: #0c64e6;
+}
+.btn-nav {
+  background-color: #0c64e6;
+  color: white;
+  border: none;
+  height: 25px;
+}
+ul.liens {
+  margin-right: 10px;
+}
+.part-one {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  align-items: center;
+}
+.img-part-one {
+  width: 450px;
+  height: 550px;
+}
+.police {
+  font-size: 1.9rem;
+  color: #262529;
+}
+.text-incription {
+  color: #313a4b;
+}
+.inscription {
+  width: 50%;
+}
+.input-inscription {
+  color: #7b7c80;
+  border: 1px solid #d5d6da;
+  font-size: 1.1rem;
+  padding: 10px;
+  width: 55%;
+}
+.btn-inscription {
+  color: white;
+  background-color: #0d6efd;
+  transition: background-color 2s;
+  border-radius: 5px;
+  padding: 18px;
+  border: none;
+  cursor: pointer;
+}
+.btn-inscription:hover {
+  background-color: rgb(194, 69, 146);
+}
+
+.part-two {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.img-coworking {
+  width: 850px;
+  height: 650px;
+}
+.coworking {
+  margin-bottom: 30px;
+}
+.btn-coworking {
+  padding: 8px;
+  color: #0d6efd;
+  border-color: #0d6efd;
+  transition: background-color 2s;
+}
+.btn-coworking:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+.btn-coworking i {
+  margin-left: 5px;
+}
+.sponsor {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  margin: 0 auto;
+}
+.img-sponsor {
+  color: #172b4b;
+  width: 80px;
+  height: 30px;
+}
+.img-fonctionnalites {
+  width: 350px;
+  height: 300px;
+}
+.part-three {
+  width: 500px;
+  text-align: justify;
+  margin-left: 150px;
+  margin-top: 100px;
+  font-size: 0.9rem;
+}
+.part-four {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.view {
+  width: 50%;
+  margin-right: 100px;
+  font-size: 0.9rem;
+}
+.img-fonctionnalites {
+  margin-left: 150px;
+}
+.image-card {
+  width: 350px;
+  height: 300px;
+}
+.part-five {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 40%;
+  font-size: 0.9rem;
+  margin-right: 0px;
+}
+.img-card {
+  margin-right: 50px;
+}
+.img-automatisation {
+  width: 350px;
+  height: 300px;
+}
+.part-six {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.automatisation {
+  width: 40%;
+}
+.automatisation-text {
+  font-size: 0.9rem;
+}
+.power-ups-img {
+  width: 400px;
+  height: 350px;
+}
+.part-seven {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.power-ups {
+  width: 40%;
+}
+.tarif-image {
+  width: 120px;
+  height: 120px;
+}
+.tarif {
+  display: flex;
+  justify-content: center;
+}
+
+.visite-image {
+  width: 100px;
+  height: 100px;
+}
+
+.visite {
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+.part-eight {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  font-size: 0.8rem;
+  margin-bottom: 70px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+.btn-tarif {
+  color: #0d6efd;
+  border-color: #0d6efd;
+  padding: 5px;
+  transition: background-color 2s;
+}
+.btn-tarif:hover {
+  background-color: #0c64e6;
+  color: white;
+}
+
+.part-nine {
+  background-color: #e6fcff;
+  padding-top: 70px;
+}
+.img-ebay {
+  width: 300px;
+  height: 120px;
+}
+.image-ebay {
+  margin-right: 10px;
+}
+.part-ebay {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  position: relative;
+  padding-top: 50px;
+}
+.ebay-para {
+  width: 50%;
+  font-size: 1.4rem;
+  color: #172b4f;
+}
+
+.part-ebay i {
+  position: absolute;
+  color: #172b4b;
+  font-size: 2rem;
+  top: 30px;
+  bottom: 50px;
+  right: 750px;
+}
+.signature {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 180px;
+  margin-right: 180px;
+  font-size: 0.8rem;
+  color: #172b4f;
+  border-bottom: 5px solid #172b4f;
+  padding-bottom: 50px;
+}
+.arrow {
+  margin-left: 180px;
+  font-size: 0.9rem;
+}
+.points {
+  font-size: 4rem;
+  color: #172b4f;
+}
+.arrow i {
+  background-color: #172b4f;
+  color: white;
+  padding: 10px;
+}
+.fin {
+  margin-top: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
+  height: 140px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: linear-gradient(
+    rgb(5, 5, 82),
+    rgb(167, 167, 238),
+    rgb(124, 124, 221)
+  );
+}
+.fin-text {
+  font-size: 1.2rem;
+  color: white;
+}
+.fin-input {
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 40px;
+}
+.fin-btn {
+  padding: 7px;
+  color: #ffffff;
+  background-color: #0c64e6;
+  border: none;
+  transition: background-color 2s;
+}
+.fin-btn:hover {
+  background-color: #172b4b;
+}
+.apple {
+  height: 40px;
+  width: 150px;
+}
+.google-play {
+  height: 40px;
+  width: 150px;
+}
+.ecran {
+  text-align: center;
+}
+.ecran-text {
+  margin-top: 40px;
+}
+#langue-select {
+  width: 200px;
+  padding: 10px;
+  margin-top: 50px;
+  align-content: center;
+}
+footer {
+  text-align: center;
+}
+.liens-footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.liens-footer a {
+  color: #7b7c80;
+}
+.atlassian {
+  width: 100px;
+  height: 40px;
+}
+.copyright {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
